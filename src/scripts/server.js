@@ -11,7 +11,7 @@ app.use(express.json());
 // Configuración de CORS
 app.use(
   cors({
-    origin: "http://localhost:9000", // Asegúrate de que esta sea la URL de tu frontend
+    origin: "https://snacs.netlify.app", // Asegúrate de que esta sea la URL de tu frontend
   })
 );
 
